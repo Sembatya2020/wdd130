@@ -1,83 +1,83 @@
 :root {
-    --heading-main-text: aquamarine;  /* Main heading color */
-    --heading-small-text: #C7FFED;     /* Small heading color */
-    --paragraph: #B592A0;              /* Paragraph color */
-    --font-color: #BBC8CA;             /* General font color */
+    --heading-main-text: aquamarine;  
+    --heading-small-text: #C7FFED;     
+    --paragraph: #B592A0;              
+    --font-color: #BBC8CA;             
 }
 
 h1 {
-    color: var(--heading-main-text);    /* Apply main heading color */
+    color: var(--heading-main-text);    
 }
 
 h2 {
-    color: var(--heading-small-text);   /* Apply small heading color */
+    color: var(--heading-small-text);   
 }
 
 p {
-    color: var(--paragraph);             /* Apply paragraph color */
+    color: var(--paragraph);             
 }
 
 nav a {
-    text-decoration: none;               /* Remove underlines from links */
+    text-decoration: none;               
 }
 
 body {
-    max-width: 1200px;                  /* Limit width of the page */
-    margin: 0 auto;                     /* Center the body */
-    padding: 20px;                      /* Add padding */
+    max-width: 1200px;                  
+    margin: 0 auto;                     
+    padding: 20px;                      
 }
 
 .hero {
-    position: relative;                  /* Relative positioning for child elements */
-    background-image: url(/wwr/images/Picture1.jpg); /* Background image */
-    background-size: cover;              /* Cover the whole area */
-    background-repeat: no-repeat;        /* No repetition of the image */
-    background-position: center;         /* Center the image */
+    position: relative;                  
+    background-image: url(/wwr/images/Picture1.jpg); 
+    background-size: cover;              
+    background-repeat: no-repeat;        
+    background-position: center;         
 }
 
 .hero h1 {
-    position: absolute;                  /* Absolute positioning */
-    top: 50%;                            /* Center vertically */
-    left: 50%;                           /* Center horizontally */
-    transform: translate(-50%, -50%);   /* Adjust for centering */
-    margin: 10px;                       /* Margin for spacing */
-    padding: 10px;                      /* Padding for better visibility */
-    border-radius: 5px;                 /* Rounded corners */
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
-    color: var(--font-color);           /* Font color */
+    position: absolute;                  
+    top: 50%;                            
+    left: 50%;                           
+    transform: translate(-50%, -50%);   
+    margin: 10px;                       
+    padding: 10px;                      
+    border-radius: 5px;                 
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: var(--font-color);           
 }
 
 .hero img {
-    display: block;                      /* Block display for images */
-    width: 100%;                        /* Full width */
-    height: auto;                       /* Maintain aspect ratio */
+    display: block;                      
+    width: 100%;                        
+    height: auto;                       
 }
 
 .hero article {
-    position: absolute;                  /* Absolute positioning */
-    bottom: 20px;                       /* Position at the bottom */
-    left: 20px;                         /* Left margin */
-    background-color: rgba(199, 255, 237, 0.8); /* Slightly transparent background */
-    padding: 20px;                      /* Padding inside the article */
-    border-radius: 10px;                /* Rounded corners */
+    position: absolute;                  
+    bottom: 20px;                       
+    left: 20px;                         
+    background-color: rgba(199, 255, 237, 0.8); 
+    padding: 20px;                      
+    border-radius: 10px;                
 }
 
 .hero article img {
-    float: right;                       /* Float image to the right */
-    margin: 10px;                       /* Margin around the image */
-    width: 100px;                       /* Fixed width */
+    float: right;                      
+    margin: 10px;                       
+    width: 100px;                      
 }
 
 footer {
-    display: flex;                      /* Use flexbox for footer layout */
-    align-items: center;                /* Center items vertically */
+    display: flex;                      
+    align-items: center;                
 }
 
 footer p {
-    margin: 0;                          /* Remove default margin */
+    margin: 0;                          
 }
 
 footer img {
-    width: 30px;                        /* Width for social media icons */
-    margin-left: 10px;                  /* Space between icons */
+    width: 30px;                        
+    margin-left: 10px;                  
 }
