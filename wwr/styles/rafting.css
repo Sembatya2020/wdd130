@@ -1,45 +1,83 @@
 :root {
-    --heading-main-text:aquamarine;
-    --heading-small-text:#C7FFED;
-    --paragraph:#B592A0;
-    --font-color:#BBC8CA;
-}
- 
-h1{
-    color:var(--heading-main-text);
+    --heading-main-text: aquamarine;  /* Main heading color */
+    --heading-small-text: #C7FFED;     /* Small heading color */
+    --paragraph: #B592A0;              /* Paragraph color */
+    --font-color: #BBC8CA;             /* General font color */
 }
 
-h2{
-    color:var(--heading-small-text)
+h1 {
+    color: var(--heading-main-text);    /* Apply main heading color */
 }
 
-p{
-    color: var(--paragraph);
+h2 {
+    color: var(--heading-small-text);   /* Apply small heading color */
 }
 
-nav a{
-    text-decoration: none;
-
+p {
+    color: var(--paragraph);             /* Apply paragraph color */
 }
 
-body{
-   max-width: 1200px; 
-   margin: 0 auto;
+nav a {
+    text-decoration: none;               /* Remove underlines from links */
 }
 
-.hero{
-    position: relative;
+body {
+    max-width: 1200px;                  /* Limit width of the page */
+    margin: 0 auto;                     /* Center the body */
+    padding: 20px;                      /* Add padding */
 }
 
-article,h1{
-    position: absolute;
+.hero {
+    position: relative;                  /* Relative positioning for child elements */
+    background-image: url(/wwr/images/Picture1.jpg); /* Background image */
+    background-size: cover;              /* Cover the whole area */
+    background-repeat: no-repeat;        /* No repetition of the image */
+    background-position: center;         /* Center the image */
 }
+
+.hero h1 {
+    position: absolute;                  /* Absolute positioning */
+    top: 50%;                            /* Center vertically */
+    left: 50%;                           /* Center horizontally */
+    transform: translate(-50%, -50%);   /* Adjust for centering */
+    margin: 10px;                       /* Margin for spacing */
+    padding: 10px;                      /* Padding for better visibility */
+    border-radius: 5px;                 /* Rounded corners */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: var(--font-color);           /* Font color */
+}
+
 .hero img {
-    display: block;
-    width: 100%;
-    height: auto;
-  }
+    display: block;                      /* Block display for images */
+    width: 100%;                        /* Full width */
+    height: auto;                       /* Maintain aspect ratio */
+}
 
- article img{
-    float: right;
- }
+.hero article {
+    position: absolute;                  /* Absolute positioning */
+    bottom: 20px;                       /* Position at the bottom */
+    left: 20px;                         /* Left margin */
+    background-color: rgba(199, 255, 237, 0.8); /* Slightly transparent background */
+    padding: 20px;                      /* Padding inside the article */
+    border-radius: 10px;                /* Rounded corners */
+}
+
+.hero article img {
+    float: right;                       /* Float image to the right */
+    margin: 10px;                       /* Margin around the image */
+    width: 100px;                       /* Fixed width */
+}
+
+footer {
+    display: flex;                      /* Use flexbox for footer layout */
+    align-items: center;                /* Center items vertically */
+}
+
+footer p {
+    margin: 0;                          /* Remove default margin */
+}
+
+footer img {
+    width: 30px;                        /* Width for social media icons */
+    margin-left: 10px;                  /* Space between icons */
+}
