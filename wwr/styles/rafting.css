@@ -156,3 +156,124 @@ footer {
 .sociallinks {
     margin-top: 10px;
 }
+/* Contact Us Page Specific Styles */
+
+/* Main Contact Section */
+.contact-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 0; /* Removed padding to allow full width */
+    width: 100%;
+}
+
+/* Company Information */
+.company-info {
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: rgba(255, 165, 0, 0.1);
+    border-radius: 10px;
+    width: 100%; /* Full width */
+}
+
+.company-info h1 {
+    font-size: 36px;
+    color: var(--heading-main-color);
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.company-info p {
+    font-size: 18px;
+    color: var(--font-small);
+    margin: 5px 0;
+    transition: color 0.3s ease;
+}
+
+.company-info p:hover {
+    color: var(--heading-small-color);
+}
+
+/* Google Map Styling */
+.company-info iframe {
+    margin-top: 20px;
+    border: none; /* Remove border */
+    width: 100%; /* Full width */
+    height: 600px; /* Increased height to cover more area */
+    border-radius: 0; /* Removed rounded corners */
+}
+
+/* Team Profiles */
+.team-profiles {
+    margin: 40px 0;
+    text-align: center;
+    background-color: rgba(255, 165, 0, 0.05);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Full width */
+}
+
+.profiles img{
+    width: 200px;
+    height: auto;
+    
+}
+
+/* Contact Form */
+.contact-form {
+    width: 100%; /* Full width */
+    background-color: rgba(08, 78, 98, 0.05);
+    padding: 30px;
+    border-radius: 0; /* Removed rounded corners */
+    box-shadow: none; /* Removed shadow */
+    margin-top: 20px;
+}
+
+.contact-form h2 {
+    text-align: center;
+    font-size: 28px;
+    color: var(--heading-main-color);
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%; /* Full width for form fields */
+    max-width: 100%; /* Ensures no maximum width limitation */
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%; /* Full width for input fields */
+    padding: 12px;
+    border: 2px solid var(--heading-small-color);
+    border-radius: 8px;
+    font-size: 16px;
+    color: #333;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.contact-form textarea {
+    resize: none;
+}
+
+.contact-form button {
+    padding: 12px;
+    font-size: 18px;
+    background-color: var(--heading-main-color);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%; /* Full width for button */
+}
+
