@@ -219,8 +219,13 @@ footer {
 
 .profiles img{
     width: 200px;
-    height: auto;
-    
+    height: 300px;
+}
+
+.profiles{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Contact Form */
