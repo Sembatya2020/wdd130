@@ -165,7 +165,7 @@ footer {
     align-items: center;
     justify-content: center;
     margin-top: 20px;
-    padding: 0; /* Removed padding to allow full width */
+    padding: 0;
     width: 100%;
 }
 
@@ -200,10 +200,10 @@ footer {
 /* Google Map Styling */
 .company-info iframe {
     margin-top: 20px;
-    border: none; /* Remove border */
-    width: 100%; /* Full width */
-    height: 600px; /* Increased height to cover more area */
-    border-radius: 0; /* Removed rounded corners */
+    border: none;
+    width: 100%; 
+    height: 600px; 
+    border-radius: 0;
 }
 
 /* Team Profiles */
@@ -214,7 +214,7 @@ footer {
     padding: 30px;
     border-radius: 15px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-    width: 100%; /* Full width */
+    width: 100%;
 }
 
 .profiles img{
@@ -230,11 +230,11 @@ footer {
 
 /* Contact Form */
 .contact-form {
-    width: 100%; /* Full width */
+    width: 100%; 
     background-color: rgba(08, 78, 98, 0.05);
     padding: 30px;
-    border-radius: 0; /* Removed rounded corners */
-    box-shadow: none; /* Removed shadow */
+    border-radius: 0;
+    box-shadow: none; 
     margin-top: 20px;
 }
 
@@ -249,7 +249,7 @@ footer {
 .contact-form input[type="text"],
 .contact-form input[type="email"],
 .contact-form textarea {
-    width: 100%; /* Full width for input fields */
+    width: 100%;
     padding: 12px;
     border: 2px solid var(--heading-small-color);
     border-radius: 8px;
@@ -271,6 +271,6 @@ footer {
     border: none;
     border-radius: 8px;
     cursor: pointer;
-    width: 100%; /* Full width for button */
+    width: 100%;
 }
 
