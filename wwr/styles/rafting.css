@@ -43,6 +43,12 @@ body {
     padding: 15px;
 }
 
+.heading-x{
+    text-align: center;
+    color: white;
+
+}
+
 .image {
     width: 100px;
 }
@@ -620,7 +626,8 @@ footer {
 
 .cta-button {
     display: inline-block;
-    padding: 15px 30px;
+    font-size: 18px;
+    padding: 1rem 3rem;
     background-color: white;
     color: #2980b9;
     text-decoration: none;
@@ -636,10 +643,12 @@ footer {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    /* Hero Section */
     .hero {
         padding: 20px;
     }
 
+    /* Image Clip Inside Hero Section */
     .hero .image-clip {
         position: relative;
         width: 100%;
@@ -647,19 +656,27 @@ footer {
         margin-top: 20px;
     }
 
+    /* Trip Cards Section */
     .trip-cards {
+        display: grid;
         grid-template-columns: 1fr;
+        gap: 15px; /* Adds spacing between cards */
+        padding: 15px;
     }
 
+    /* Schedule Table */
     .scheduleTable {
         overflow-x: auto;
         display: block;
+        max-width: 100%; /* Ensures table fits within viewport */
     }
 
+    /* Contact Action Section */
     .contact-action {
         padding: 20px;
     }
 }
+
 
 .scheduleTable table {
     width: 100%;
