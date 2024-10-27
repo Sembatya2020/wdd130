@@ -72,14 +72,15 @@ body {
 
 .happy-p {
     width: fit-content;
-    color: azure;
+    color: white;
     padding: 10px;
+    font-weight: bold;
 }
 
 
 
 h2{
-    color: #FFA500;
+    color:rgb(95, 53, 3);
 }
 
 
@@ -165,7 +166,6 @@ footer {
 }
 /* Contact Us Page Specific Styles */
 
-/* Main Contact Section */
 .contact-main {
     display: flex;
     flex-direction: column;
@@ -188,14 +188,14 @@ footer {
 
 .company-info h1 {
     font-size: 36px;
-    color: var(--heading-main-color);
+    color:rgb(95, 53, 3);
     margin-bottom: 20px;
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
 }
 
 .company-info p {
     font-size: 18px;
-    color: var(--font-small);
+    color: rgb(105, 77, 6);
     margin: 5px 0;
     transition: color 0.3s ease;
 }
@@ -248,9 +248,9 @@ footer {
 .contact-form h2 {
     text-align: center;
     font-size: 28px;
-    color: var(--heading-main-color);
+    color: rgb(139, 79, 6);
     margin-bottom: 20px;
-    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 5px rgba(53, 2, 2, 0.2);
 }
 
 .contact-form input[type="text"],
@@ -273,7 +273,7 @@ footer {
 .contact-form button {
     padding: 12px;
     font-size: 18px;
-    background-color: var(--heading-main-color);
+    background-color: rgb(66, 48, 2);
     color: white;
     border: none;
     border-radius: 8px;
@@ -283,8 +283,6 @@ footer {
 
 
 /*Home page*/
-/* Enhanced Newsletter Section */
-
 
 .hero-content {
     max-width: 800px;
@@ -473,7 +471,7 @@ footer {
   
   .adventure-card p {
     padding: 0 var(--spacing-sm) var(--spacing-sm);
-    color: #666;
+    color: #0f0101;
     font-size: 1rem;
     line-height: 1.6;
   }
@@ -630,7 +628,7 @@ footer {
     font-size: 18px;
     padding: 1rem 3rem;
     background-color: white;
-    color: #2980b9;
+    color: #0e022e;
     text-decoration: none;
     border-radius: 25px;
     font-weight: bold;
@@ -711,7 +709,7 @@ footer {
 
 
 .contact-action {
-    background: linear-gradient(135deg, #3498db, #2980b9);
+    background: rgb(1, 1, 53);
     border-radius: 10px;
     padding: 40px;
     color: white;
@@ -728,7 +726,7 @@ footer {
     display: inline-block;
     padding: 15px 30px;
     background-color: white;
-    color: #2980b9;
+    color: #00060a;
     text-decoration: none;
     border-radius: 25px;
     font-weight: bold;
